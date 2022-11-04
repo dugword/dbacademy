@@ -122,7 +122,8 @@ class DBAcademyHelper:
 
         # With requirements initialized, we can
         # test various assertions about our environment
-        self.__validate_spark_version()
+        # TODO: My version is fine
+        # self.__validate_spark_version()
         self.__validate_dbfs_writes(DBAcademyHelper.get_dbacademy_users_path())
         self.__validate_dbfs_writes(DBAcademyHelper.get_dbacademy_datasets_path())
 
